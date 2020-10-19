@@ -396,6 +396,15 @@ is_a: CHEBI:33579 ! main group molecular entity
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/chebi.owl
 
 [Term]
+id: CHEBI:149552
+name: emetic
+namespace: chebi_ontology
+def: "Any agent that induces nausea and vomiting." []
+subset: 3_STAR
+synonym: "emetics" RELATED [ChEBI]
+is_a: CHEBI:23888 ! drug
+
+[Term]
 id: CHEBI:15022
 name: electron donor
 is_a: CHEBI:17891 ! donor
@@ -440,6 +449,74 @@ synonym: "Oxidized donor" RELATED [KEGG_COMPOUND]
 xref: KEGG:C00028
 xref: KEGG:C16722
 is_a: CHEBI:51086 ! chemical role
+
+[Term]
+id: CHEBI:15366
+name: acetic acid
+namespace: chebi_ontology
+alt_id: CHEBI:22169
+alt_id: CHEBI:2387
+alt_id: CHEBI:40486
+def: "A simple monocarboxylic acid containing two carbons." []
+subset: 3_STAR
+synonym: "ACETIC ACID" EXACT [PDBeChem]
+synonym: "Acetic acid" EXACT [KEGG_COMPOUND]
+synonym: "acetic acid" EXACT IUPAC_NAME [IUPAC]
+synonym: "acide acetique" RELATED [ChemIDplus]
+synonym: "AcOH" RELATED [ChEBI]
+synonym: "CH3-COOH" RELATED [IUPAC]
+synonym: "CH3CO2H" RELATED [ChEBI]
+synonym: "E 260" RELATED [ChEBI]
+synonym: "E-260" RELATED [ChEBI]
+synonym: "E260" RELATED [ChEBI]
+synonym: "Essigsaeure" RELATED [ChEBI]
+synonym: "Ethanoic acid" RELATED [KEGG_COMPOUND]
+synonym: "ethoic acid" RELATED [ChEBI]
+synonym: "Ethylic acid" RELATED [ChemIDplus]
+synonym: "HOAc" RELATED [ChEBI]
+synonym: "INS No. 260" RELATED [ChEBI]
+synonym: "MeCO2H" RELATED [ChEBI]
+synonym: "MeCOOH" RELATED [ChEBI]
+synonym: "Methanecarboxylic acid" RELATED [ChemIDplus]
+xref: Beilstein:506007 {source="Beilstein"}
+xref: CAS:64-19-7 {source="ChemIDplus"}
+xref: CAS:64-19-7 {source="NIST Chemistry WebBook"}
+xref: CAS:64-19-7 {source="KEGG COMPOUND"}
+xref: Drug_Central:4211 {source="DrugCentral"}
+xref: Gmelin:1380 {source="Gmelin"}
+xref: HMDB:HMDB0000042
+xref: KEGG:C00033
+xref: KEGG:D00010
+xref: KNApSAcK:C00001176
+xref: LIPID_MAPS_instance:LMFA01010002 {source="LIPID MAPS"}
+xref: MetaCyc:ACET
+xref: PDBeChem:ACT
+xref: PDBeChem:ACY
+xref: PMID:12005138 {source="Europe PMC"}
+xref: PMID:15107950 {source="Europe PMC"}
+xref: PMID:16630552 {source="Europe PMC"}
+xref: PMID:16774200 {source="Europe PMC"}
+xref: PMID:17190852 {source="Europe PMC"}
+xref: PMID:19416101 {source="Europe PMC"}
+xref: PMID:19469536 {source="Europe PMC"}
+xref: PMID:22153255 {source="Europe PMC"}
+xref: PMID:22173419 {source="Europe PMC"}
+xref: PPDB:1333
+xref: Reaxys:506007 {source="Reaxys"}
+xref: Wikipedia:Acetic_acid
+is_a: CHEBI:25384 ! monocarboxylic acid
+relationship: has_role CHEBI:48356 ! protic solvent
+relationship: has_role CHEBI:64049 ! food acidity regulator
+relationship: has_role CHEBI:65256 ! antimicrobial food preservative
+relationship: has_role CHEBI:83056 ! Daphnia magna metabolite
+relationship: is_conjugate_acid_of CHEBI:30089 ! acetate
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C2H4O2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "QTBSBXVTEAMEQO-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "60.05200" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "60.02113" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(O)=O" xsd:string
 
 [Term]
 id: CHEBI:15368
@@ -1061,6 +1138,116 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "XLYOFNOQVPJJNP-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "17.00734" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.00329" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-][H]" xsd:string
+
+[Term]
+id: CHEBI:16240
+name: hydrogen peroxide
+namespace: chebi_ontology
+alt_id: CHEBI:13354
+alt_id: CHEBI:13355
+alt_id: CHEBI:24637
+alt_id: CHEBI:44812
+alt_id: CHEBI:5586
+def: "An inorganic peroxide consisting of two hydroxy groups joined by a covalent oxygen-oxygen single bond." []
+subset: 3_STAR
+synonym: "[OH(OH)]" RELATED [MolBase]
+synonym: "bis(hydridooxygen)(O--O)" EXACT IUPAC_NAME [IUPAC]
+synonym: "dihydrogen dioxide" RELATED [IUPAC]
+synonym: "dihydrogen peroxide" EXACT IUPAC_NAME [IUPAC]
+synonym: "dihydrogen(peroxide)" EXACT IUPAC_NAME [IUPAC]
+synonym: "dioxidane" EXACT IUPAC_NAME [IUPAC]
+synonym: "H2O2" RELATED [UniProt]
+synonym: "H2O2" RELATED [KEGG_COMPOUND]
+synonym: "HOOH" RELATED [IUPAC]
+synonym: "HYDROGEN PEROXIDE" EXACT [PDBeChem]
+synonym: "Hydrogen peroxide" EXACT [KEGG_COMPOUND]
+synonym: "hydrogen peroxide" EXACT IUPAC_NAME [IUPAC]
+synonym: "Oxydol" RELATED [KEGG_COMPOUND]
+synonym: "perhydrol" RELATED [MetaCyc]
+xref: Beilstein:3587191 {source="Beilstein"}
+xref: CAS:7722-84-1 {source="KEGG COMPOUND"}
+xref: CAS:7722-84-1 {source="NIST Chemistry WebBook"}
+xref: CAS:7722-84-1 {source="ChemIDplus"}
+xref: Drug_Central:3281 {source="DrugCentral"}
+xref: Gmelin:509 {source="Gmelin"}
+xref: HMDB:HMDB0003125
+xref: KEGG:C00027
+xref: KEGG:D00008
+xref: MetaCyc:HYDROGEN-PEROXIDE
+xref: MolBase:932
+xref: PDBeChem:PEO
+xref: PMID:10455187 {source="Europe PMC"}
+xref: PMID:10557015 {source="Europe PMC"}
+xref: PMID:10849784 {source="Europe PMC"}
+xref: PMID:11033421 {source="Europe PMC"}
+xref: PMID:11105916 {source="Europe PMC"}
+xref: PMID:11318558 {source="Europe PMC"}
+xref: PMID:11387393 {source="Europe PMC"}
+xref: PMID:11809417 {source="Europe PMC"}
+xref: PMID:11864786 {source="Europe PMC"}
+xref: PMID:11893576 {source="Europe PMC"}
+xref: PMID:12867293 {source="Europe PMC"}
+xref: PMID:12934880 {source="Europe PMC"}
+xref: PMID:14679422 {source="Europe PMC"}
+xref: PMID:15028418 {source="Europe PMC"}
+xref: PMID:15133946 {source="Europe PMC"}
+xref: PMID:15298493 {source="Europe PMC"}
+xref: PMID:16337875 {source="Europe PMC"}
+xref: PMID:16463018 {source="Europe PMC"}
+xref: PMID:16864869 {source="Europe PMC"}
+xref: PMID:17020896 {source="Europe PMC"}
+xref: PMID:17179007 {source="Europe PMC"}
+xref: PMID:17610934 {source="Europe PMC"}
+xref: PMID:17948137 {source="Europe PMC"}
+xref: PMID:18179203 {source="Europe PMC"}
+xref: PMID:18182702 {source="Europe PMC"}
+xref: PMID:18306736 {source="Europe PMC"}
+xref: PMID:18443210 {source="Europe PMC"}
+xref: PMID:18592736 {source="Europe PMC"}
+xref: PMID:19107210 {source="Europe PMC"}
+xref: PMID:19229032 {source="Europe PMC"}
+xref: PMID:19297450 {source="Europe PMC"}
+xref: PMID:19509065 {source="Europe PMC"}
+xref: PMID:26352695 {source="Europe PMC"}
+xref: PMID:26365231 {source="Europe PMC"}
+xref: PMID:7548021 {source="Europe PMC"}
+xref: PMID:7581816 {source="Europe PMC"}
+xref: PMID:8048546 {source="Europe PMC"}
+xref: PMID:8375042 {source="Europe PMC"}
+xref: PMID:8451754 {source="Europe PMC"}
+xref: PMID:9051670 {source="Europe PMC"}
+xref: PMID:9100841 {source="Europe PMC"}
+xref: PMID:9168257 {source="Europe PMC"}
+xref: PMID:9202721 {source="Europe PMC"}
+xref: PMID:9558114 {source="Europe PMC"}
+xref: PPDB:387
+xref: Reaxys:3587191 {source="Reaxys"}
+xref: Wikipedia:Hydrogen_peroxide
+is_a: CHEBI:24837 ! inorganic peroxide
+is_a: CHEBI:26523 ! reactive oxygen species
+relationship: has_role CHEBI:132717 ! bleaching agent
+relationship: has_role CHEBI:149552 ! emetic
+relationship: has_role CHEBI:23357 ! cofactor
+relationship: has_role CHEBI:48219 ! disinfectant
+relationship: has_role CHEBI:50902 ! genotoxin
+relationship: has_role CHEBI:50910 ! neurotoxin
+relationship: has_role CHEBI:59163 ! biomarker
+relationship: has_role CHEBI:63248 ! oxidising agent
+relationship: has_role CHEBI:63490 ! explosive
+relationship: has_role CHEBI:65259 ! GABA antagonist
+relationship: has_role CHEBI:68495 ! apoptosis inducer
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+relationship: is_conjugate_acid_of CHEBI:29192 ! hydrogenperoxide(1-)
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "H2O2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/H2O2/c1-2/h1-2H" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "MHAJPDPJQMAIIY-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "34.01468" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "34.00548" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]OO[H]" xsd:string
 
 [Term]
 id: CHEBI:16301
@@ -2355,6 +2542,17 @@ is_a: CHEBI:25741 ! oxide
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/chebi.owl
 
 [Term]
+id: CHEBI:24837
+name: inorganic peroxide
+namespace: chebi_ontology
+def: "Compounds of structure ROOR' in which R and R' are inorganic groups." []
+subset: 3_STAR
+synonym: "inorganic peroxide" EXACT [ChEBI]
+synonym: "inorganic peroxides" RELATED [ChEBI]
+is_a: CHEBI:24836 ! inorganic oxide
+is_a: CHEBI:25940 ! peroxides
+
+[Term]
 id: CHEBI:24839
 name: inorganic salt
 is_a: CHEBI:24835 ! inorganic molecular entity
@@ -2692,6 +2890,21 @@ relationship: has_part CHEBI:25805 ! oxygen atom
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/chebi.owl
 
 [Term]
+id: CHEBI:25940
+name: peroxides
+namespace: chebi_ontology
+def: "Compounds of structure ROOR'." []
+subset: 3_STAR
+synonym: "a peroxide" RELATED [UniProt]
+is_a: CHEBI:25741 ! oxide
+relationship: has_part CHEBI:29369 ! peroxy group
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "O2R2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "31.999" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "31.98983" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[*]OO[*]" xsd:string
+
+[Term]
 id: CHEBI:25944
 name: pesticide
 namespace: chebi_ontology
@@ -2738,6 +2951,16 @@ namespace: chebi_ontology
 subset: 1_STAR
 is_a: CHEBI:13643 ! glycol
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/chebi.owl
+
+[Term]
+id: CHEBI:26523
+name: reactive oxygen species
+namespace: chebi_ontology
+def: "Molecules or ions formed by the incomplete one-electron reduction of oxygen. They contribute to the microbicidal activity of phagocytes, regulation of signal transduction and gene expression, and the oxidative damage to biopolymers." []
+subset: 3_STAR
+synonym: "ROS" RELATED [ChEBI]
+xref: Wikipedia:Reactive_oxygen_species
+is_a: CHEBI:25806 ! oxygen molecular entity
 
 [Term]
 id: CHEBI:26710
@@ -3182,6 +3405,32 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "43.98983"
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-]C([*])=O" xsd:string
 
 [Term]
+id: CHEBI:29192
+name: hydrogenperoxide(1-)
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "[HO2](-)" RELATED [ChEBI]
+synonym: "dioxidanide" EXACT IUPAC_NAME [IUPAC]
+synonym: "HO2(-)" RELATED [IUPAC]
+synonym: "HOO anion" RELATED [NIST_Chemistry_WebBook]
+synonym: "HOO(-)" RELATED [ChEBI]
+synonym: "hydrogen(peroxide)(1-)" EXACT IUPAC_NAME [IUPAC]
+synonym: "hydrogendioxide(1-)" EXACT IUPAC_NAME [IUPAC]
+synonym: "hydrogenperoxide(1-)" EXACT [IUPAC]
+xref: CAS:14691-59-9 {source="ChemIDplus"}
+xref: CAS:14691-59-9 {source="NIST Chemistry WebBook"}
+xref: Gmelin:507 {source="Gmelin"}
+is_a: CHEBI:33693 ! oxygen hydride
+relationship: is_conjugate_base_of CHEBI:16240 ! hydrogen peroxide
+property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "HO2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/H2O2/c1-2/h1-2H/p-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "MHAJPDPJQMAIIY-UHFFFAOYSA-M" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "33.00674" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "32.99820" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]O[O-]" xsd:string
+
+[Term]
 id: CHEBI:29337
 name: azanide
 namespace: chebi_ontology
@@ -3262,6 +3511,20 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "28.03130"
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C(C*)*" xsd:string
 
 [Term]
+id: CHEBI:29369
+name: peroxy group
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "-OO-" RELATED [IUPAC]
+synonym: "peroxy" EXACT IUPAC_NAME [IUPAC]
+is_a: CHEBI:33246 ! inorganic group
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "O2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "31.99880" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "31.98983" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "O(O*)*" xsd:string
+
+[Term]
 id: CHEBI:29412
 name: oxonium
 namespace: chebi_ontology
@@ -3340,6 +3603,50 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "RWSOTUBLDIXVET-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "33.07394" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "32.98044" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[S-][H]" xsd:string
+
+[Term]
+id: CHEBI:30089
+name: acetate
+namespace: chebi_ontology
+alt_id: CHEBI:13704
+alt_id: CHEBI:22165
+alt_id: CHEBI:40480
+def: "A monocarboxylic acid anion resulting from the removal of a proton from the carboxy group of acetic acid." []
+subset: 3_STAR
+synonym: "acetate" EXACT [UniProt]
+synonym: "acetate" EXACT IUPAC_NAME [IUPAC]
+synonym: "ACETATE ION" RELATED [PDBeChem]
+synonym: "acetic acid, ion(1-)" RELATED [ChemIDplus]
+synonym: "Azetat" RELATED [ChEBI]
+synonym: "CH3-COO(-)" RELATED [IUPAC]
+synonym: "Ethanoat" RELATED [ChEBI]
+synonym: "ethanoate" RELATED [ChEBI]
+synonym: "MeCO2 anion" RELATED [NIST_Chemistry_WebBook]
+xref: Beilstein:1901470 {source="Beilstein"}
+xref: CAS:71-50-1 {source="ChemIDplus"}
+xref: CAS:71-50-1 {source="NIST Chemistry WebBook"}
+xref: DrugBank:DB03166
+xref: Gmelin:1379 {source="Gmelin"}
+xref: KEGG:C00033
+xref: MetaCyc:ACET
+xref: PDBeChem:ACT
+xref: PMID:17190852 {source="Europe PMC"}
+xref: PMID:22211106 {source="Europe PMC"}
+xref: PMID:22371380 {source="Europe PMC"}
+xref: Reaxys:1901470 {source="Reaxys"}
+xref: UM-BBD_compID:c0050 {source="UM-BBD"}
+xref: Wikipedia:Acetate
+is_a: CHEBI:35757 ! monocarboxylic acid anion
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:77746 ! human metabolite
+relationship: is_conjugate_base_of CHEBI:15366 ! acetic acid
+property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C2H3O2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)/p-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "QTBSBXVTEAMEQO-UHFFFAOYSA-M" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "59.04402" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "59.01385" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC([O-])=O" xsd:string
 
 [Term]
 id: CHEBI:30488
@@ -3902,6 +4209,29 @@ synonym: "cristallogenes" RELATED [ChEBI]
 synonym: "group 14 elements" EXACT IUPAC_NAME [IUPAC]
 synonym: "group IV elements" RELATED [ChEBI]
 is_a: CHEBI:33560 ! p-block element atom
+
+[Term]
+id: CHEBI:33308
+name: carboxylic ester
+namespace: chebi_ontology
+alt_id: CHEBI:13204
+alt_id: CHEBI:23028
+alt_id: CHEBI:3408
+def: "An ester of a carboxylic acid, R(1)C(=O)OR(2), where R(1) = H or organyl and R(2) = organyl." []
+subset: 3_STAR
+synonym: "a carboxylic ester" RELATED [UniProt]
+synonym: "carboxylic acid esters" RELATED [ChEBI]
+synonym: "Carboxylic ester" EXACT [KEGG_COMPOUND]
+synonym: "carboxylic esters" EXACT IUPAC_NAME [IUPAC]
+xref: KEGG:C02391
+xref: Wikipedia:Ester
+is_a: CHEBI:35701 ! ester
+is_a: CHEBI:36586 ! carbonyl compound
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "CO2R2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "44.010" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "43.98983" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[*]C(=O)O[*]" xsd:string
 
 [Term]
 id: CHEBI:33318
@@ -4898,6 +5228,20 @@ synonym: "vasodilator agents" RELATED [ChEBI]
 is_a: CHEBI:35554 ! cardiovascular drug
 
 [Term]
+id: CHEBI:35701
+name: ester
+namespace: chebi_ontology
+alt_id: CHEBI:23960
+alt_id: CHEBI:4859
+def: "A compound formally derived from an oxoacid RkE(=O)l(OH)m (l > 0) and an alcohol, phenol, heteroarenol, or enol by linking with formal loss of water from an acidic hydroxy group of the former and a hydroxy group of the latter." []
+subset: 3_STAR
+synonym: "Ester" EXACT [KEGG_COMPOUND]
+synonym: "esters" RELATED [ChEBI]
+xref: KEGG:C00287
+xref: Wikipedia:Ester
+is_a: CHEBI:36963 ! organooxygen compound
+
+[Term]
 id: CHEBI:35757
 name: monocarboxylic acid anion
 namespace: chebi_ontology
@@ -5777,6 +6121,64 @@ property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "44.99765"
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "*C(=O)O" xsd:string
 
 [Term]
+id: CHEBI:46916
+name: vinyl acetate
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "1-acetoxyethylene" RELATED [ChemIDplus]
+synonym: "acetic acid ethenyl ester" RELATED [NIST_Chemistry_WebBook]
+synonym: "acetic acid vinyl ester" RELATED [NIST_Chemistry_WebBook]
+synonym: "acetoxyethene" RELATED [ChemIDplus]
+synonym: "Essigsaeurevinylester" RELATED [ChEBI]
+synonym: "ethenyl acetate" EXACT IUPAC_NAME [IUPAC]
+synonym: "ethenyl ethanoate" RELATED [NIST_Chemistry_WebBook]
+synonym: "vinyl acetate" EXACT [ChemIDplus]
+synonym: "vinyl ethanoate" RELATED [ChemIDplus]
+synonym: "Vinylacetat" RELATED [NIST_Chemistry_WebBook]
+synonym: "Vinylazetat" RELATED [ChEBI]
+xref: Beilstein:1209327 {source="Beilstein"}
+xref: Beilstein:4290704 {source="Beilstein"}
+xref: CAS:108-05-4 {source="KEGG COMPOUND"}
+xref: CAS:108-05-4 {source="ChemIDplus"}
+xref: CAS:108-05-4 {source="NIST Chemistry WebBook"}
+xref: KEGG:C19309
+is_a: CHEBI:47622 ! acetate ester
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C4H6O2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C4H6O2/c1-3-6-4(2)5/h3H,1H2,2H3" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "XTXRWKRVRITETP-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "86.08924" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "86.03678" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(=O)OC=C" xsd:string
+
+[Term]
+id: CHEBI:47622
+name: acetate ester
+namespace: chebi_ontology
+alt_id: CHEBI:13244
+alt_id: CHEBI:13799
+alt_id: CHEBI:22189
+alt_id: CHEBI:2406
+def: "Any carboxylic ester where the carboxylic acid component is acetic acid." []
+subset: 3_STAR
+synonym: "acetate" RELATED [ChEBI]
+synonym: "acetate esters" RELATED [ChEBI]
+synonym: "acetates" RELATED [ChEBI]
+synonym: "Acetic ester" RELATED [KEGG_COMPOUND]
+synonym: "Acetyl ester" RELATED [KEGG_COMPOUND]
+synonym: "acetyl esters" RELATED [ChEBI]
+synonym: "an acetyl ester" RELATED [UniProt]
+xref: KEGG:C01883
+xref: Wikipedia:Acetate#Esters
+is_a: CHEBI:33308 ! carboxylic ester
+relationship: has_functional_parent CHEBI:15366 ! acetic acid
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "C2H3O2R" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "59.04400" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "59.01330" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC(=O)O[*]" xsd:string
+
+[Term]
 id: CHEBI:47867
 name: indicator
 namespace: chebi_ontology
@@ -6181,6 +6583,14 @@ synonym: "fluorochromes" RELATED [ChEBI]
 is_a: CHEBI:51121 ! fluorescent dye
 
 [Term]
+id: CHEBI:51374
+name: GABA agent
+namespace: chebi_ontology
+def: "A substance, such as agonists, antagonists, degradation or uptake inhibitors, depleters, precursors, and modulators of receptor function, used for its pharmacological actions on GABAergic systems." []
+subset: 3_STAR
+is_a: CHEBI:35942 ! neurotransmitter agent
+
+[Term]
 id: CHEBI:51422
 name: organodiyl group
 namespace: chebi_ontology
@@ -6569,6 +6979,38 @@ synonym: "fuel enhancer" RELATED [ChEBI]
 is_a: CHEBI:51086 ! chemical role
 
 [Term]
+id: CHEBI:63248
+name: oxidising agent
+namespace: chebi_ontology
+def: "A substance that removes electrons from another reactant in a redox reaction." []
+subset: 3_STAR
+synonym: "oxidant" RELATED [ChEBI]
+synonym: "oxidants" RELATED [ChEBI]
+synonym: "oxidiser" RELATED [ChEBI]
+synonym: "oxidisers" RELATED [ChEBI]
+synonym: "oxidising agents" RELATED [ChEBI]
+synonym: "oxidizer" RELATED [ChEBI]
+synonym: "oxidizers" RELATED [ChEBI]
+synonym: "oxidizing agent" RELATED [ChEBI]
+synonym: "oxidizing agents" RELATED [ChEBI]
+is_a: CHEBI:51086 ! chemical role
+
+[Term]
+id: CHEBI:63490
+name: explosive
+namespace: chebi_ontology
+def: "A substance capable of undergoing rapid and highly exothermic decomposition." []
+subset: 3_STAR
+synonym: "explosive compound" RELATED [ChEBI]
+synonym: "explosive compounds" RELATED [ChEBI]
+synonym: "explosive material" RELATED [ChEBI]
+synonym: "explosives" RELATED [ChEBI]
+synonym: "explosives chemical" RELATED [ChEBI]
+synonym: "explosives chemicals" RELATED [ChEBI]
+xref: Wikipedia:Explosive_material
+is_a: CHEBI:51086 ! chemical role
+
+[Term]
 id: CHEBI:64047
 name: food additive
 namespace: chebi_ontology
@@ -6578,6 +7020,20 @@ synonym: "food additives" RELATED [ChEBI]
 xref: Wikipedia:Food_additive
 is_a: CHEBI:33232 ! application
 is_a: CHEBI:78295 ! food component
+
+[Term]
+id: CHEBI:64049
+name: food acidity regulator
+namespace: chebi_ontology
+def: "A food additive that is used to change or otherwise control the acidity or alkalinity of foods. They may be acids, bases, neutralising agents or buffering agents." []
+subset: 3_STAR
+synonym: "acidity regulator" RELATED [ChEBI]
+synonym: "acidity regulators" RELATED [ChEBI]
+synonym: "food acidity regulators" RELATED [ChEBI]
+synonym: "pH control agent" RELATED [ChEBI]
+synonym: "pH control agents" RELATED [ChEBI]
+xref: Wikipedia:Acidity_regulator
+is_a: CHEBI:64047 ! food additive
 
 [Term]
 id: CHEBI:64708
@@ -6615,6 +7071,53 @@ synonym: "toxic substance" RELATED [ChEBI]
 synonym: "toxic substances" RELATED [ChEBI]
 xref: Wikipedia:Poison
 is_a: CHEBI:24432 ! biological role
+
+[Term]
+id: CHEBI:65255
+name: food preservative
+namespace: chebi_ontology
+def: "Substances which are added to food in order to prevent decomposition caused by  microbial growth or by undesirable chemical changes." []
+subset: 3_STAR
+synonym: "food preservatives" RELATED [ChEBI]
+is_a: CHEBI:64047 ! food additive
+
+[Term]
+id: CHEBI:65256
+name: antimicrobial food preservative
+namespace: chebi_ontology
+def: "A food preservative which prevents decomposition of food by preventing the growth of fungi or bacteria. In European countries, E-numbers for permitted food preservatives are from E200 to E299, divided into sorbates (E200-209), benzoates (E210-219), sulfites (E220-229), phenols and formates (E230-239), nitrates (E240-259), acetates (E260-269), lactates (E270-279), propionates (E280-289) and others (E290-299)." []
+subset: 3_STAR
+synonym: "antimicrobial food preservatives" RELATED [ChEBI]
+synonym: "antimicrobial preservative" RELATED [ChEBI]
+synonym: "antimicrobial preservatives" RELATED [ChEBI]
+is_a: CHEBI:33281 ! antimicrobial agent
+is_a: CHEBI:65255 ! food preservative
+
+[Term]
+id: CHEBI:65259
+name: GABA antagonist
+namespace: chebi_ontology
+def: "A compound that inhibits the action of gamma-aminobutyric acid." []
+subset: 3_STAR
+synonym: "GABA antagonists" RELATED [ChEBI]
+synonym: "gamma-aminobutyric acid receptor antagonist" RELATED [ChEBI]
+synonym: "gamma-aminobutyric acid receptor antagonists" RELATED [ChEBI]
+xref: Wikipedia:GABA_antagonist
+is_a: CHEBI:48706 ! antagonist
+is_a: CHEBI:51374 ! GABA agent
+
+[Term]
+id: CHEBI:68495
+name: apoptosis inducer
+namespace: chebi_ontology
+def: "Any substance that induces the process of apoptosis (programmed cell death) in multi-celled organisms." []
+subset: 3_STAR
+synonym: "apoptosis inducers" RELATED [ChEBI]
+synonym: "Type I cell-death inducer" RELATED [ChEBI]
+synonym: "Type I cell-death inducers" RELATED [ChEBI]
+synonym: "Type I programmed cell-death inducer" RELATED [ChEBI]
+synonym: "Type I programmed cell-death inducers" RELATED [ChEBI]
+is_a: CHEBI:52206 ! biochemical role
 
 [Term]
 id: CHEBI:72695
@@ -7116,6 +7619,34 @@ synonym: "monovalent inorganic anions" RELATED [ChEBI]
 is_a: CHEBI:24834 ! inorganic anion
 
 [Term]
+id: CHEBI:83039
+name: crustacean metabolite
+namespace: chebi_ontology
+def: "An animal metabolite produced by arthropods such as crabs, lobsters, crayfish, shrimps and krill." []
+subset: 3_STAR
+synonym: "crustacean metabolites" RELATED [ChEBI]
+is_a: CHEBI:75767 ! animal metabolite
+
+[Term]
+id: CHEBI:83056
+name: Daphnia magna metabolite
+namespace: chebi_ontology
+def: "A Daphnia metabolite produced by the species Daphnia magna." []
+subset: 3_STAR
+synonym: "Daphnia magna metabolites" RELATED [ChEBI]
+is_a: CHEBI:83057 ! Daphnia metabolite
+
+[Term]
+id: CHEBI:83057
+name: Daphnia metabolite
+namespace: chebi_ontology
+def: "A crustacean metabolite produced by the genus of small planktonic arthropods, Daphnia" []
+subset: 3_STAR
+synonym: "Daphnia metabolites" RELATED [ChEBI]
+xref: Wikipedia:Daphnia
+is_a: CHEBI:83039 ! crustacean metabolite
+
+[Term]
 id: CHEBI:88184
 name: metal allergen
 namespace: chebi_ontology
@@ -7150,11 +7681,11 @@ def: "An elastomeric copolymer of ethylene and vinyl acetate used to produce \"r
 is_a: CHEBI:60004 ! mixture
 intersection_of: CHEBI:60004 ! mixture
 intersection_of: has_part CHEBI:29362 ! ethylene group
-intersection_of: has_part CHEBI:46916
+intersection_of: has_part CHEBI:46916 ! vinyl acetate
 relationship: has_part CHEBI:29362 ! ethylene group
-relationship: has_part CHEBI:46916
+relationship: has_part CHEBI:46916 ! vinyl acetate
 property_value: dcterms:creator https://orcid.org/0000-0002-7463-6306
-property_value: exactSynonym "PEVA, poly(ethylene-vinyl acetate), EVA" xsd:string
+property_value: exactSynonym "PEVA|poly(ethylene-vinyl acetate)|EVA" xsd:string
 property_value: seeAlso Ethylene-vinyl:acetate
 
 [Term]
@@ -7178,9 +7709,9 @@ def: "A coloring agent used to temporarily or permanently alter hair color." []
 is_a: CHEBI:60004 ! mixture
 intersection_of: CHEBI:60004 ! mixture
 intersection_of: has_part CHEBI:16134 ! ammonia
-intersection_of: has_part CHEBI:16240
+intersection_of: has_part CHEBI:16240 ! hydrogen peroxide
 relationship: has_part CHEBI:16134 ! ammonia
-relationship: has_part CHEBI:16240
+relationship: has_part CHEBI:16240 ! hydrogen peroxide
 property_value: dcterms:creator https://orcid.org/0000-0002-7463-6306
 property_value: exactSynonym "hair color" xsd:string
 property_value: seeAlso Hair:coloring
@@ -10435,6 +10966,13 @@ id: ENVO:3100011
 name: concentration of dioxygen in liquid water
 def: "The concentration of dioxygen when measured in liquid water." []
 synonym: "liquid water dioxygen concentration" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: ENVO:3100016
+name: concentration of hydrogen peroxide in liquid water
+def: "The concentration of hydrogen peroxide when measured in liquid water." []
+synonym: "liquid water hydrogen peroxide concentration" EXACT []
 is_a: PATO:0000033 ! concentration of
 
 [Term]

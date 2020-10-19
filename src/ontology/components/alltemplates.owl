@@ -411,7 +411,7 @@
         </owl:equivalentClass>
         <dcterms:creator rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An elastomeric copolymer of ethylene and vinyl acetate used to produce &quot;rubber-like&quot; materials.</obo:IAO_0000115>
-        <oboInOwl:exactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEVA, poly(ethylene-vinyl acetate), EVA</oboInOwl:exactSynonym>
+        <oboInOwl:exactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEVA|poly(ethylene-vinyl acetate)|EVA</oboInOwl:exactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethylene-vinyl acetate</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Ethylene-vinyl_acetate"/>
     </owl:Class>

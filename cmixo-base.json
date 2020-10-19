@@ -109,11 +109,11 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#exactSynonym",
-          "val" : "PEVA, poly(ethylene-vinyl acetate), EVA"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "https://en.wikipedia.org/wiki/Ethylene-vinyl_acetate"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#exactSynonym",
+          "val" : "PEVA|poly(ethylene-vinyl acetate)|EVA"
         }, {
           "pred" : "dcterms:creator",
           "val" : "https://orcid.org/0000-0002-7463-6306"

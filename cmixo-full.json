@@ -978,6 +978,29 @@
       "type" : "CLASS",
       "lbl" : "carbonyl group"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_26523",
+      "meta" : {
+        "definition" : {
+          "val" : "Molecules or ions formed by the incomplete one-electron reduction of oxygen. They contribute to the microbicidal activity of phagocytes, regulation of signal transduction and gene expression, and the oxidative damage to biopolymers.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "Wikipedia:Reactive_oxygen_species"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "ROS",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "reactive oxygen species"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000025",
       "meta" : {
         "definition" : {
@@ -2550,6 +2573,26 @@
       },
       "type" : "PROPERTY",
       "lbl" : "is kinase activity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_149552",
+      "meta" : {
+        "definition" : {
+          "val" : "Any agent that induces nausea and vomiting.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "emetics",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "emetic"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0001547",
       "meta" : {
@@ -4887,6 +4930,35 @@
       },
       "type" : "CLASS",
       "lbl" : "metallophthalocyanine"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "meta" : {
+        "definition" : {
+          "val" : "The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "definition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "2012-04-05: \nBarry Smith\n\nThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.\n\nCan you fix to something like:\n\nA statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.\n\nAlan Ruttenberg\n\nYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. \n\nOn the specifics of the proposed definition:\n\nWe don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. \n\nPersonally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. \n\nWe also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "definition"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_51580",
       "meta" : {
@@ -7968,6 +8040,85 @@
       "type" : "CLASS",
       "lbl" : "talus slope"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_65256",
+      "meta" : {
+        "definition" : {
+          "val" : "A food preservative which prevents decomposition of food by preventing the growth of fungi or bacteria. In European countries, E-numbers for permitted food preservatives are from E200 to E299, divided into sorbates (E200-209), benzoates (E210-219), sulfites (E220-229), phenols and formates (E230-239), nitrates (E240-259), acetates (E260-269), lactates (E270-279), propionates (E280-289) and others (E290-299).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "antimicrobial preservative",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "antimicrobial food preservatives",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "antimicrobial preservatives",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "antimicrobial food preservative"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_65259",
+      "meta" : {
+        "definition" : {
+          "val" : "A compound that inhibits the action of gamma-aminobutyric acid.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "Wikipedia:GABA_antagonist"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "gamma-aminobutyric acid receptor antagonists",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "gamma-aminobutyric acid receptor antagonist",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "GABA antagonists",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "GABA antagonist"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_65255",
+      "meta" : {
+        "definition" : {
+          "val" : "Substances which are added to food in order to prevent decomposition caused by  microbial growth or by undesirable chemical changes.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "food preservatives",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "food preservative"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_29360",
       "meta" : {
         "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
@@ -8153,6 +8304,42 @@
       },
       "type" : "CLASS",
       "lbl" : "planetary surface"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_29369",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "-OO-",
+          "xrefs" : [ "IUPAC" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "peroxy",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "31.98983"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "31.99880"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
+          "val" : "0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
+          "val" : "O(O*)*"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
+          "val" : "O2"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "peroxy group"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_29362",
       "meta" : {
@@ -9037,6 +9224,97 @@
       "type" : "CLASS",
       "lbl" : "organic cyclic compound"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_46916",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "CAS:108-05-4"
+        }, {
+          "val" : "KEGG:C19309"
+        }, {
+          "val" : "Beilstein:4290704"
+        }, {
+          "val" : "Beilstein:1209327"
+        }, {
+          "val" : "CAS:108-05-4"
+        }, {
+          "val" : "CAS:108-05-4"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "ethenyl ethanoate",
+          "xrefs" : [ "NIST_Chemistry_WebBook" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Vinylazetat",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "ethenyl acetate",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "vinyl ethanoate",
+          "xrefs" : [ "ChemIDplus" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Vinylacetat",
+          "xrefs" : [ "NIST_Chemistry_WebBook" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "vinyl acetate",
+          "xrefs" : [ "ChemIDplus" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "acetic acid vinyl ester",
+          "xrefs" : [ "NIST_Chemistry_WebBook" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "1-acetoxyethylene",
+          "xrefs" : [ "ChemIDplus" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "acetoxyethene",
+          "xrefs" : [ "ChemIDplus" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "acetic acid ethenyl ester",
+          "xrefs" : [ "NIST_Chemistry_WebBook" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Essigsaeurevinylester",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
+          "val" : "XTXRWKRVRITETP-UHFFFAOYSA-N"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
+          "val" : "0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "86.08924"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
+          "val" : "CC(=O)OC=C"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
+          "val" : "C4H6O2"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
+          "val" : "InChI=1S/C4H6O2/c1-3-6-4(2)5/h3H,1H2,2H3"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "86.03678"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "vinyl acetate"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0002182",
       "meta" : {
         "definition" : {
@@ -9711,6 +9989,238 @@
       "type" : "CLASS",
       "lbl" : "Bronsted acid"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "meta" : {
+        "definition" : {
+          "val" : "An inorganic peroxide consisting of two hydroxy groups joined by a covalent oxygen-oxygen single bond.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "PDBeChem:PEO"
+        }, {
+          "val" : "PMID:17179007"
+        }, {
+          "val" : "PMID:19297450"
+        }, {
+          "val" : "PMID:17020896"
+        }, {
+          "val" : "PMID:10455187"
+        }, {
+          "val" : "PMID:14679422"
+        }, {
+          "val" : "PMID:11809417"
+        }, {
+          "val" : "CAS:7722-84-1"
+        }, {
+          "val" : "PMID:9051670"
+        }, {
+          "val" : "PMID:11318558"
+        }, {
+          "val" : "PMID:11893576"
+        }, {
+          "val" : "PMID:18179203"
+        }, {
+          "val" : "PMID:18182702"
+        }, {
+          "val" : "PMID:11387393"
+        }, {
+          "val" : "PMID:11864786"
+        }, {
+          "val" : "Reaxys:3587191"
+        }, {
+          "val" : "PMID:17610934"
+        }, {
+          "val" : "PMID:12934880"
+        }, {
+          "val" : "MolBase:932"
+        }, {
+          "val" : "PMID:19229032"
+        }, {
+          "val" : "PMID:18592736"
+        }, {
+          "val" : "PPDB:387"
+        }, {
+          "val" : "PMID:15133946"
+        }, {
+          "val" : "PMID:16864869"
+        }, {
+          "val" : "Drug_Central:3281"
+        }, {
+          "val" : "HMDB:HMDB0003125"
+        }, {
+          "val" : "PMID:9168257"
+        }, {
+          "val" : "KEGG:D00008"
+        }, {
+          "val" : "PMID:16337875"
+        }, {
+          "val" : "PMID:26365231"
+        }, {
+          "val" : "PMID:15028418"
+        }, {
+          "val" : "PMID:15298493"
+        }, {
+          "val" : "PMID:19509065"
+        }, {
+          "val" : "MetaCyc:HYDROGEN-PEROXIDE"
+        }, {
+          "val" : "PMID:9558114"
+        }, {
+          "val" : "CAS:7722-84-1"
+        }, {
+          "val" : "PMID:11105916"
+        }, {
+          "val" : "Wikipedia:Hydrogen_peroxide"
+        }, {
+          "val" : "KEGG:C00027"
+        }, {
+          "val" : "PMID:9100841"
+        }, {
+          "val" : "PMID:26352695"
+        }, {
+          "val" : "PMID:12867293"
+        }, {
+          "val" : "PMID:10557015"
+        }, {
+          "val" : "PMID:8375042"
+        }, {
+          "val" : "PMID:7548021"
+        }, {
+          "val" : "Gmelin:509"
+        }, {
+          "val" : "PMID:10849784"
+        }, {
+          "val" : "PMID:7581816"
+        }, {
+          "val" : "PMID:16463018"
+        }, {
+          "val" : "PMID:11033421"
+        }, {
+          "val" : "CAS:7722-84-1"
+        }, {
+          "val" : "PMID:8048546"
+        }, {
+          "val" : "PMID:17948137"
+        }, {
+          "val" : "PMID:18443210"
+        }, {
+          "val" : "Beilstein:3587191"
+        }, {
+          "val" : "PMID:9202721"
+        }, {
+          "val" : "PMID:8451754"
+        }, {
+          "val" : "PMID:19107210"
+        }, {
+          "val" : "PMID:18306736"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "hydrogen peroxide",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HOOH",
+          "xrefs" : [ "IUPAC" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "dihydrogen dioxide",
+          "xrefs" : [ "IUPAC" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dihydrogen(peroxide)",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Oxydol",
+          "xrefs" : [ "KEGG_COMPOUND" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Hydrogen peroxide",
+          "xrefs" : [ "KEGG_COMPOUND" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "H2O2",
+          "xrefs" : [ "KEGG_COMPOUND" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "bis(hydridooxygen)(O--O)",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dioxidane",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dihydrogen peroxide",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "H2O2",
+          "xrefs" : [ "UniProt" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "perhydrol",
+          "xrefs" : [ "MetaCyc" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "HYDROGEN PEROXIDE",
+          "xrefs" : [ "PDBeChem" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "[OH(OH)]",
+          "xrefs" : [ "MolBase" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
+          "val" : "InChI=1S/H2O2/c1-2/h1-2H"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
+          "val" : "[H]OO[H]"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:13354"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:13355"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
+          "val" : "H2O2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
+          "val" : "MHAJPDPJQMAIIY-UHFFFAOYSA-N"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "34.00548"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
+          "val" : "0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "34.01468"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:5586"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:44812"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:24637"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hydrogen peroxide"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_91835",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -10233,6 +10743,49 @@
       },
       "type" : "CLASS",
       "lbl" : "cyclic polypyrrole"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_83057",
+      "meta" : {
+        "definition" : {
+          "val" : "A crustacean metabolite produced by the genus of small planktonic arthropods, Daphnia",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "Wikipedia:Daphnia"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Daphnia metabolites",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Daphnia metabolite"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_83056",
+      "meta" : {
+        "definition" : {
+          "val" : "A Daphnia metabolite produced by the species Daphnia magna.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Daphnia magna metabolites",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Daphnia magna metabolite"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_33232",
       "meta" : {
@@ -11190,6 +11743,82 @@
       "type" : "CLASS",
       "lbl" : "anion"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_47622",
+      "meta" : {
+        "definition" : {
+          "val" : "Any carboxylic ester where the carboxylic acid component is acetic acid.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "KEGG:C01883"
+        }, {
+          "val" : "Wikipedia:Acetate#Esters"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "an acetyl ester",
+          "xrefs" : [ "UniProt" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "acetate esters",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "acetates",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "acetyl esters",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Acetyl ester",
+          "xrefs" : [ "KEGG_COMPOUND" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "acetate",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Acetic ester",
+          "xrefs" : [ "KEGG_COMPOUND" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
+          "val" : "CC(=O)O[*]"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
+          "val" : "C2H3O2R"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "59.04400"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:13799"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
+          "val" : "0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "59.01330"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:22189"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:2406"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:13244"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "acetate ester"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/ENVO_01001026",
       "meta" : {
         "definition" : {
@@ -11671,6 +12300,58 @@
       "type" : "CLASS",
       "lbl" : "sulfuric acid derivative"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_63248",
+      "meta" : {
+        "definition" : {
+          "val" : "A substance that removes electrons from another reactant in a redox reaction.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "oxidants",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "oxidizer",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "oxidizers",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "oxidisers",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "oxidiser",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "oxidant",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "oxidizing agent",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "oxidizing agents",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "oxidising agents",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "oxidising agent"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_33465",
       "type" : "CLASS",
       "lbl" : "elemental pnictogen"
@@ -11869,6 +12550,49 @@
       },
       "type" : "CLASS",
       "lbl" : "vegetation layer"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_63490",
+      "meta" : {
+        "definition" : {
+          "val" : "A substance capable of undergoing rapid and highly exothermic decomposition.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "Wikipedia:Explosive_material"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "explosive compounds",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "explosive material",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "explosives chemical",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "explosives chemicals",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "explosive compound",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "explosives",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "explosive"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ENVO_01001201",
       "meta" : {
@@ -12741,6 +13465,81 @@
       },
       "type" : "CLASS",
       "lbl" : "electron"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_29192",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "CAS:14691-59-9"
+        }, {
+          "val" : "Gmelin:507"
+        }, {
+          "val" : "CAS:14691-59-9"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "hydrogendioxide(1-)",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hydrogen(peroxide)(1-)",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HOO anion",
+          "xrefs" : [ "NIST_Chemistry_WebBook" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dioxidanide",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HO2(-)",
+          "xrefs" : [ "IUPAC" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hydrogenperoxide(1-)",
+          "xrefs" : [ "IUPAC" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "[HO2](-)",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HOO(-)",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
+          "val" : "HO2"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "33.00674"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
+          "val" : "[H]O[O-]"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "32.99820"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
+          "val" : "MHAJPDPJQMAIIY-UHFFFAOYSA-M"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
+          "val" : "-1"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
+          "val" : "InChI=1S/H2O2/c1-2/h1-2H/p-1"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hydrogenperoxide(1-)"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ENVO_01001673",
       "meta" : {
@@ -16429,14 +17228,14 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#exactSynonym",
-          "val" : "PEVA, poly(ethylene-vinyl acetate), EVA"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "https://en.wikipedia.org/wiki/Ethylene-vinyl_acetate"
         }, {
           "pred" : "dcterms:creator",
           "val" : "https://orcid.org/0000-0002-7463-6306"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#exactSynonym",
+          "val" : "PEVA|poly(ethylene-vinyl acetate)|EVA"
         } ]
       },
       "type" : "CLASS",
@@ -16587,6 +17386,26 @@
       },
       "type" : "PROPERTY",
       "lbl" : "capable of negatively regulating"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_83039",
+      "meta" : {
+        "definition" : {
+          "val" : "An animal metabolite produced by arthropods such as crabs, lobsters, crayfish, shrimps and krill.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "crustacean metabolites",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "crustacean metabolite"
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002350",
       "meta" : {
@@ -18096,6 +18915,182 @@
       "type" : "PROPERTY",
       "lbl" : "developmentally related to"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_15366",
+      "meta" : {
+        "definition" : {
+          "val" : "A simple monocarboxylic acid containing two carbons.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "KEGG:C00033"
+        }, {
+          "val" : "Beilstein:506007"
+        }, {
+          "val" : "PMID:22153255"
+        }, {
+          "val" : "PMID:15107950"
+        }, {
+          "val" : "CAS:64-19-7"
+        }, {
+          "val" : "PMID:16630552"
+        }, {
+          "val" : "PDBeChem:ACT"
+        }, {
+          "val" : "PMID:19416101"
+        }, {
+          "val" : "PDBeChem:ACY"
+        }, {
+          "val" : "HMDB:HMDB0000042"
+        }, {
+          "val" : "PMID:16774200"
+        }, {
+          "val" : "Gmelin:1380"
+        }, {
+          "val" : "PMID:17190852"
+        }, {
+          "val" : "CAS:64-19-7"
+        }, {
+          "val" : "Reaxys:506007"
+        }, {
+          "val" : "PMID:12005138"
+        }, {
+          "val" : "PMID:19469536"
+        }, {
+          "val" : "MetaCyc:ACET"
+        }, {
+          "val" : "KNApSAcK:C00001176"
+        }, {
+          "val" : "PPDB:1333"
+        }, {
+          "val" : "KEGG:D00010"
+        }, {
+          "val" : "CAS:64-19-7"
+        }, {
+          "val" : "Wikipedia:Acetic_acid"
+        }, {
+          "val" : "LIPID_MAPS_instance:LMFA01010002"
+        }, {
+          "val" : "PMID:22173419"
+        }, {
+          "val" : "Drug_Central:4211"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ACETIC ACID",
+          "xrefs" : [ "PDBeChem" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "E-260",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Methanecarboxylic acid",
+          "xrefs" : [ "ChemIDplus" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "acetic acid",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "MeCO2H",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "acide acetique",
+          "xrefs" : [ "ChemIDplus" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Essigsaeure",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "AcOH",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "INS No. 260",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HOAc",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "MeCOOH",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "E 260",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "CH3-COOH",
+          "xrefs" : [ "IUPAC" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "E260",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "CH3CO2H",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Acetic acid",
+          "xrefs" : [ "KEGG_COMPOUND" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Ethanoic acid",
+          "xrefs" : [ "KEGG_COMPOUND" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Ethylic acid",
+          "xrefs" : [ "ChemIDplus" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "ethoic acid",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "60.02113"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:22169"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
+          "val" : "C2H4O2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "60.05200"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:40486"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
+          "val" : "CC(O)=O"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
+          "val" : "0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
+          "val" : "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:2387"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
+          "val" : "QTBSBXVTEAMEQO-UHFFFAOYSA-N"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "acetic acid"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000235",
       "meta" : {
         "definition" : {
@@ -19007,6 +20002,42 @@
       },
       "type" : "CLASS",
       "lbl" : "barium molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_68495",
+      "meta" : {
+        "definition" : {
+          "val" : "Any substance that induces the process of apoptosis (programmed cell death) in multi-celled organisms.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "apoptosis inducers",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Type I programmed cell-death inducers",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Type I programmed cell-death inducer",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Type I cell-death inducer",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Type I cell-death inducers",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "apoptosis inducer"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ENVO_01000724",
       "meta" : {
@@ -21823,6 +22854,41 @@
       "type" : "CLASS",
       "lbl" : "titanium oxides"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_35701",
+      "meta" : {
+        "definition" : {
+          "val" : "A compound formally derived from an oxoacid RkE(=O)l(OH)m (l > 0) and an alcohol, phenol, heteroarenol, or enol by linking with formal loss of water from an acidic hydroxy group of the former and a hydroxy group of the latter.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "KEGG:C00287"
+        }, {
+          "val" : "Wikipedia:Ester"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Ester",
+          "xrefs" : [ "KEGG_COMPOUND" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "esters",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:23960"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:4859"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ester"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_78433",
       "meta" : {
         "definition" : {
@@ -22051,6 +23117,45 @@
       },
       "type" : "CLASS",
       "lbl" : "anthropogenic terrestrial biome"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_64049",
+      "meta" : {
+        "definition" : {
+          "val" : "A food additive that is used to change or otherwise control the acidity or alkalinity of foods. They may be acids, bases, neutralising agents or buffering agents.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "Wikipedia:Acidity_regulator"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "pH control agent",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "pH control agents",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "food acidity regulators",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "acidity regulator",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "acidity regulators",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "food acidity regulator"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ENVO_01001308",
       "meta" : {
@@ -22742,6 +23847,21 @@
       },
       "type" : "CLASS",
       "lbl" : "soybean oil"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_3100016",
+      "meta" : {
+        "definition" : {
+          "val" : "The concentration of hydrogen peroxide when measured in liquid water.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "liquid water hydrogen peroxide concentration",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "concentration of hydrogen peroxide in liquid water"
     }, {
       "id" : "http://purl.obolibrary.org/obo/FOODON_03301444",
       "meta" : {
@@ -23510,6 +24630,21 @@
       },
       "type" : "CLASS",
       "lbl" : "Metazoa"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_51374",
+      "meta" : {
+        "definition" : {
+          "val" : "A substance, such as agonists, antagonists, degradation or uptake inhibitors, depleters, precursors, and modulators of receptor function, used for its pharmacological actions on GABAergic systems.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "GABA agent"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_23924",
       "meta" : {
@@ -25273,6 +26408,118 @@
       },
       "type" : "CLASS",
       "lbl" : "oceanic pelagic zone biome"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_30089",
+      "meta" : {
+        "definition" : {
+          "val" : "A monocarboxylic acid anion resulting from the removal of a proton from the carboxy group of acetic acid.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "PDBeChem:ACT"
+        }, {
+          "val" : "KEGG:C00033"
+        }, {
+          "val" : "PMID:22371380"
+        }, {
+          "val" : "Beilstein:1901470"
+        }, {
+          "val" : "Gmelin:1379"
+        }, {
+          "val" : "PMID:17190852"
+        }, {
+          "val" : "CAS:71-50-1"
+        }, {
+          "val" : "PMID:22211106"
+        }, {
+          "val" : "Reaxys:1901470"
+        }, {
+          "val" : "MetaCyc:ACET"
+        }, {
+          "val" : "DrugBank:DB03166"
+        }, {
+          "val" : "CAS:71-50-1"
+        }, {
+          "val" : "Wikipedia:Acetate"
+        }, {
+          "val" : "UM-BBD_compID:c0050"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "acetic acid, ion(1-)",
+          "xrefs" : [ "ChemIDplus" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "MeCO2 anion",
+          "xrefs" : [ "NIST_Chemistry_WebBook" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Ethanoat",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "acetate",
+          "xrefs" : [ "UniProt" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "ACETATE ION",
+          "xrefs" : [ "PDBeChem" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "CH3-COO(-)",
+          "xrefs" : [ "IUPAC" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Azetat",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "acetate",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "ethanoate",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:22165"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
+          "val" : "C2H3O2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "59.01385"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:13704"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
+          "val" : "-1"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
+          "val" : "QTBSBXVTEAMEQO-UHFFFAOYSA-M"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "59.04402"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:40480"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
+          "val" : "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)/p-1"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
+          "val" : "CC([O-])=O"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "acetate"
     }, {
       "id" : "http://purl.obolibrary.org/obo/FOODON_00001635",
       "meta" : {
@@ -28626,6 +29873,41 @@
       "type" : "CLASS",
       "lbl" : "inorganically enriched sediment"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_25940",
+      "meta" : {
+        "definition" : {
+          "val" : "Compounds of structure ROOR'.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "a peroxide",
+          "xrefs" : [ "UniProt" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
+          "val" : "O2R2"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "31.98983"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
+          "val" : "[*]OO[*]"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
+          "val" : "0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "31.999"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "peroxides"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000004",
       "meta" : {
         "definition" : {
@@ -30231,6 +31513,68 @@
       "type" : "CLASS",
       "lbl" : "carbon group element atom"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33308",
+      "meta" : {
+        "definition" : {
+          "val" : "An ester of a carboxylic acid, R(1)C(=O)OR(2), where R(1) = H or organyl and R(2) = organyl.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "KEGG:C02391"
+        }, {
+          "val" : "Wikipedia:Ester"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "carboxylic esters",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "a carboxylic ester",
+          "xrefs" : [ "UniProt" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Carboxylic ester",
+          "xrefs" : [ "KEGG_COMPOUND" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "carboxylic acid esters",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
+          "val" : "[*]C(=O)O[*]"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "44.010"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
+          "val" : "0"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:3408"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:13204"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:23028"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
+          "val" : "CO2R2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "43.98983"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "carboxylic ester"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_42485",
       "meta" : {
         "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
@@ -30550,6 +31894,30 @@
       },
       "type" : "CLASS",
       "lbl" : "role"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_24837",
+      "meta" : {
+        "definition" : {
+          "val" : "Compounds of structure ROOR' in which R and R' are inorganic groups.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "inorganic peroxide",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "inorganic peroxides",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "inorganic peroxide"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ENVO_01001571",
       "meta" : {
@@ -31030,6 +32398,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000025"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_83056",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_83057"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33458",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_51143"
@@ -31105,6 +32477,10 @@
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001683",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01001673"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33308",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35701"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16189",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -31206,13 +32582,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33583"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35352",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51143"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001367",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_03000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35352",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51143"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17790",
       "pred" : "is_a",
@@ -31369,6 +32745,10 @@
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001191",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01001310"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_47622",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33308"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/FOODON_03316694",
       "pred" : "is_a",
@@ -31610,13 +32990,21 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002350",
       "obj" : "http://purl.obolibrary.org/obo/FOODON_03400152"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_36829",
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_63248"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_65259",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33273"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51374"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001478",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01001479"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_36829",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33273"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_76924",
       "pred" : "is_a",
@@ -31629,6 +33017,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33645",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33641"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_68495",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_52206"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000409",
       "pred" : "is_a",
@@ -31678,6 +33070,10 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_27027"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_63490"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50910",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_52209"
@@ -31718,9 +33114,17 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002143"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_83057",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_83039"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_134438",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_37217"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50902"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000068",
       "pred" : "is_a",
@@ -31786,13 +33190,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001241"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33240",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_37577"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001040",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000314"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33240",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_37577"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35406",
       "pred" : "is_a",
@@ -31998,17 +33402,21 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_00001995"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_65256",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33281"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01000016",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_00010483"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33694",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50860"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002131",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002323"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33694",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50860"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01000342",
       "pred" : "is_a",
@@ -32029,6 +33437,10 @@
       "sub" : "http://purl.obolibrary.org/obo/ENVO_04000010",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01001483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_65259",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_48706"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01000685",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002473",
@@ -32118,25 +33530,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001018"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001434",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ENVO_02500027"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_64047",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_78295"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001434",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_02500027"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33937",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33284"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76967",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_76206"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/FOODON_03411013",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76967",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_76206"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001595",
       "pred" : "type",
@@ -32150,13 +33562,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000992"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001191",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ENVO_01000325"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29438",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16183"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001191",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01000325"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17790",
       "pred" : "is_a",
@@ -32201,6 +33613,10 @@
       "sub" : "http://purl.obolibrary.org/obo/FOODON_00001092",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/FOODON_00002381"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50910"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001691",
       "pred" : "is_a",
@@ -32249,6 +33665,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PO_0000003",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PO_0009011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_63248",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51086"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_03000033",
       "pred" : "is_a",
@@ -32442,6 +33862,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_26191"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_51374",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35942"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001549",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002233",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_00002006"
@@ -32497,6 +33921,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15377",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_76971"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_132717"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002087",
       "pred" : "subPropertyOf",
@@ -32758,6 +34186,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/FOODON_00002451"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35701",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36963"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001300",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001291"
@@ -32858,13 +34290,13 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01001570"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33579",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33318"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_45696",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33482"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33579",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33318"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002013",
       "pred" : "subPropertyOf",
@@ -33026,6 +34458,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/FOODON_03420228"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15366",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_83056"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0002124",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000141"
@@ -33117,6 +34553,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_23924",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35222"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_26523",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25806"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36309",
       "pred" : "is_a",
@@ -33262,13 +34702,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_37577"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15740",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002418",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002427"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15740",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/FOODON_03411017",
       "pred" : "is_a",
@@ -33350,6 +34790,10 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_63490",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51086"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001627",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01001570"
@@ -33389,6 +34833,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16134",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35107"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_46916",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_47622"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16189",
       "pred" : "is_a",
@@ -33538,13 +34986,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_38101"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/FOODON_03302776",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/FOODON_03420307"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0004046",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002418"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/FOODON_03302776",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/FOODON_03420307"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000121",
       "pred" : "type",
@@ -34034,13 +35482,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_79389"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ENVO_01000797",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ENVO_02000140"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002023",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01000797",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_02000140"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_00000191",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002473",
@@ -34050,17 +35498,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01001479"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001501",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002608",
-      "obj" : "http://purl.obolibrary.org/obo/ENVO_00003074"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_24866",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36916"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001501",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002608",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_00003074"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16183",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_76969"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25940",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25741"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01000639",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -34181,6 +35633,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_38101",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35352"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_47622",
+      "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_15366"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_314295",
       "pred" : "is_a",
@@ -34329,6 +35785,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CMIXO_0000006",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_15368"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_26523"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002216",
       "pred" : "subPropertyOf",
@@ -34830,17 +36290,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/FOODON_03411041"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76946",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_75763"
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000063",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002222"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002014",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002013"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/BFO_0000063",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002222"
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76946",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_75763"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_25585",
       "pred" : "is_a",
@@ -35002,13 +36462,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_51121"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_51086",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50906"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/FOODON_00001635",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/FOODON_00002153"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_51086",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50906"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_00010504",
       "pred" : "is_a",
@@ -35198,13 +36658,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_49637"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33402",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_26835"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35107",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35106"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33402",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_26835"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002202",
       "pred" : "inverseOf",
@@ -35353,6 +36813,10 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0002255",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002286"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24837",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25940"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_30751",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -35602,6 +37066,14 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000141"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_30089",
+      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_15366"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_65259"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35757",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29067"
@@ -35609,6 +37081,10 @@
       "sub" : "http://purl.obolibrary.org/obo/ENVO_2100000",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002509",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_64049",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_64047"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002017",
       "pred" : "subPropertyOf",
@@ -35618,13 +37094,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000406"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_39479",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33646"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002333",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_39479",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33646"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9443",
       "pred" : "is_a",
@@ -35637,6 +37113,10 @@
       "sub" : "http://purl.obolibrary.org/obo/ENVO_02500028",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01001346"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_48219"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_76725",
       "pred" : "is_a",
@@ -35750,6 +37230,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_02500000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_149552",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/FOODON_03411579",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PO_0000003"
@@ -35817,6 +37301,10 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0002578",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002412"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15366",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25384"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CMIXO_0000006",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
@@ -35922,13 +37410,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000814"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ENVO_00010505",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ENVO_00010483"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_03000088",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_00000134"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_00010505",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_00010483"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0002301",
       "pred" : "is_a",
@@ -36046,13 +37534,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002473",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_00002006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_53406",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_53405"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002564",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002563"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_53406",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_53405"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33266",
       "pred" : "is_a",
@@ -36274,6 +37762,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000031"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_65255",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_64047"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CMIXO_0000008",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000575"
@@ -36325,6 +37817,10 @@
       "sub" : "http://purl.obolibrary.org/obo/FOODON_00001002",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/FOODON_00002403"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29192",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33693"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35196",
       "pred" : "is_a",
@@ -36397,6 +37893,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33232",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50906"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24837",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24836"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36962",
       "pred" : "is_a",
@@ -36526,6 +38026,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01001476"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_59163"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001597",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
@@ -36606,13 +38110,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35406"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000577",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000578"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002084",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002222"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000577",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000578"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01000268",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -36637,6 +38141,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_24836",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24835"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_30089",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CMIXO_0000006",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
@@ -36678,6 +38186,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_02500000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_65256",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_65255"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_09200014",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000052",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_00002006"
@@ -36686,21 +38198,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/FOODON_00001262"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_36339",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36340"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000386",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002305"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001154",
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_36339",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ENVO_00010483"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36340"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002427",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002501"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001154",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_00010483"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002018",
       "pred" : "subPropertyOf",
@@ -36730,13 +38242,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36344"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0001476",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000140"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001476",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000140"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17245",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -36790,21 +38302,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000254"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_88184",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33521"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001273",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002473",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000815"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/FOODON_00003004",
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_88184",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/FOODON_03411564"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33521"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001346",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000638"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/FOODON_00003004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/FOODON_03411564"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_28694",
       "pred" : "is_a",
@@ -36825,6 +38337,10 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0002431",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002328"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29369",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33246"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001547",
       "pred" : "is_a",
@@ -36942,13 +38458,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33595"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ENVO_04000006",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_22695",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_51086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_04000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/FOODON_03301444",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002350",
@@ -37010,6 +38526,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33242"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33308",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36586"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17997",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_138675"
@@ -37049,6 +38569,10 @@
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01000295",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000325"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23357"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33285",
       "pred" : "is_a",
@@ -37106,13 +38630,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50860"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76932",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23924"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000577",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000028"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76932",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23924"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_52090",
       "pred" : "is_a",
@@ -37162,6 +38686,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01001678"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29192",
+      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16240"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_51082",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24866"
@@ -37201,6 +38729,14 @@
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01000016",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15366",
+      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_30089"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_83039",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_75767"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/FOODON_00002153",
       "pred" : "is_a",
@@ -37258,9 +38794,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33675"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_75771"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33459",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33302"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_76971"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_75772"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_138103",
       "pred" : "is_a",
@@ -37278,13 +38826,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33560"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ENVO_01000554",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ENVO_01000797"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002578",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002211"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01000554",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01000797"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002436",
       "pred" : "subPropertyOf",
@@ -37518,13 +39066,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_134179"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001788",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001787"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PO_0009011",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PO_0025131"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001788",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001787"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CMIXO_0000004",
       "pred" : "is_a",
@@ -37546,6 +39094,10 @@
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16234"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_76967"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001788",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000320"
@@ -37561,6 +39113,10 @@
       "sub" : "http://purl.obolibrary.org/obo/ENVO_00000339",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002473",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_00001995"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25940",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29369"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_09200004",
       "pred" : "is_a",
@@ -37722,13 +39278,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_38496"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16716",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_22712"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001090",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01001086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16716",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_22712"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001366",
       "pred" : "is_a",
@@ -37866,13 +39422,17 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002328"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002327",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002215"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/FOODON_03400289",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/FOODON_03400361"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002327",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002215"
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_30089",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_75772"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002303",
       "pred" : "subPropertyOf",
@@ -37885,6 +39445,10 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0002203",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002388"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29192"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002203",
       "pred" : "subPropertyOf",
@@ -38029,6 +39593,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_25701",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_72695"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24837"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16234",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
@@ -38558,13 +40126,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24651"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/FOODON_03310387",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002350",
-      "obj" : "http://purl.obolibrary.org/obo/FOODON_03400129"
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_30089",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35757"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_00001998",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_00010483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/FOODON_03310387",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002350",
+      "obj" : "http://purl.obolibrary.org/obo/FOODON_03400129"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/FOODON_00001304",
       "pred" : "is_a",
@@ -38585,6 +40157,10 @@
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01001781",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_00000191"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15366",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_48356"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/FOODON_03304996",
       "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
@@ -38653,6 +40229,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17245",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50910"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15366",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_64049"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01000952",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002234",
@@ -38726,6 +40306,10 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002350",
       "obj" : "http://purl.obolibrary.org/obo/FOODON_03400260"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_149552"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01000640",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_01000639"
@@ -38769,6 +40353,10 @@
       "sub" : "http://purl.obolibrary.org/obo/ENVO_00000309",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/ENVO_00002000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_3100016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000033"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_28938",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -38885,6 +40473,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33497",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_23367"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_68495"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ENVO_01000752",
       "pred" : "is_a",
@@ -39021,6 +40613,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_76764",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_76759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_15366",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_65256"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_60242",
       "pred" : "is_a",
@@ -39944,16 +41540,16 @@
         "fillerId" : "http://purl.obolibrary.org/obo/ENVO_01000320"
       } ]
     }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/ENVO_01000997",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/ENVO_01000254" ],
-      "restrictions" : [ null ]
-    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/ENVO_09200009",
       "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000141" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0000052",
         "fillerId" : "http://purl.obolibrary.org/obo/ENVO_00001998"
       } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/ENVO_01000997",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/ENVO_01000254" ],
+      "restrictions" : [ null ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/ENVO_01000295",
       "genusIds" : [ "http://purl.obolibrary.org/obo/ENVO_01000325" ],
@@ -40028,6 +41624,10 @@
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0002507",
         "fillerId" : "http://purl.obolibrary.org/obo/ENVO_00001998"
       } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/ENVO_3100016",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000033" ],
+      "restrictions" : [ null ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/ENVO_01001122",
       "genusIds" : [ "http://purl.obolibrary.org/obo/ENVO_01000800" ],
@@ -40625,25 +42225,25 @@
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "allValuesFromEdges" : [ {
-        "sub" : "http://purl.obolibrary.org/obo/BFO_0000003",
+        "sub" : "http://purl.obolibrary.org/obo/BFO_0000004",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+        "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
+      }, {
+        "sub" : "http://purl.obolibrary.org/obo/BFO_0000017",
+        "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "obj" : "http://purl.obolibrary.org/obo/BFO_0000017"
       }, {
         "sub" : "http://purl.obolibrary.org/obo/BFO_0000020",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "obj" : "http://purl.obolibrary.org/obo/BFO_0000020"
       }, {
-        "sub" : "http://purl.obolibrary.org/obo/BFO_0000004",
-        "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
-      }, {
         "sub" : "http://purl.obolibrary.org/obo/BFO_0000002",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
       }, {
-        "sub" : "http://purl.obolibrary.org/obo/BFO_0000017",
+        "sub" : "http://purl.obolibrary.org/obo/BFO_0000003",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "obj" : "http://purl.obolibrary.org/obo/BFO_0000017"
+        "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
       } ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002506",

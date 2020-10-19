@@ -28,7 +28,7 @@ intersection_of: CHEBI:60004
 intersection_of: BFO:0000051 CHEBI:29362
 intersection_of: BFO:0000051 CHEBI:46916
 property_value: dcterms:creator https://orcid.org/0000-0002-7463-6306
-property_value: exactSynonym "PEVA, poly(ethylene-vinyl acetate), EVA" xsd:string
+property_value: exactSynonym "PEVA|poly(ethylene-vinyl acetate)|EVA" xsd:string
 property_value: seeAlso Ethylene-vinyl:acetate
 
 [Term]
