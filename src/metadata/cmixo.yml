@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/cmixo
+
+idspace: CMIXO
+base_url: /obo/cmixo
+
+products:
+- cmixo.owl: https://raw.githubusercontent.com/laurenechan/chemical-mixture-ontology/master/cmixo.owl
+- cmixo.obo: https://raw.githubusercontent.com/laurenechan/chemical-mixture-ontology/master/cmixo.obo
+
+term_browser: ontobee
+example_terms:
+- CMIXO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/laurenechan/chemical-mixture-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/laurenechan/chemical-mixture-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/CMIXO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/laurenechan/chemical-mixture-ontology/master/

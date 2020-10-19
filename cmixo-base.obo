@@ -1,0 +1,13 @@
+format-version: 1.2
+data-version: cmixo/releases/2020-10-14/cmixo-base.owl
+ontology: cmixo/cmixo-base
+property_value: http://purl.org/dc/elements/1.1/description "Ontology about chemical mixtures" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Chemical Mixture Ontology" xsd:string
+property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: owl:versionInfo "2020-10-14" xsd:string
+
+[Term]
+id: CMIXO:00000000
+name: root node
+

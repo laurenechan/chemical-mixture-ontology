@@ -1,0 +1,22 @@
+id: cmixo
+title: "Chemical Mixture Ontology"
+github_org: laurenechan
+repo: chemical-mixture-ontology
+report_fail_on: none
+description: "Ontology about chemical mixtures"
+release_artefacts: 
+  - base
+  - full
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+import_group:
+  products:
+    - id: iao
+    - id: foodon
+    - id: ro
+    - id: chebi
+    - id: envo
+robot_java_args: '-Xmx8G'
