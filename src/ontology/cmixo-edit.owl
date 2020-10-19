@@ -21,7 +21,7 @@ Import(<http://purl.obolibrary.org/obo/cmixo/imports/chebi_import.owl>)
 
 Import(<http://purl.obolibrary.org/obo/cmixo/imports/envo_import.owl>)
 
-
+Import(<http://purl.obolibrary.org/obo/cmixo/components/alltemplates.owl>)
 
 Annotation(dce:title "Chemical Mixture Ontology")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)

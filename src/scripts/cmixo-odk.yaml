@@ -20,6 +20,3 @@ import_group:
     - id: chebi
     - id: envo
 robot_java_args: '-Xmx8G'
-components:
-  products:
-    - filename: alltemplates.owl
