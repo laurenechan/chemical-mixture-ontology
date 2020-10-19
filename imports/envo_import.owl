@@ -16,8 +16,8 @@
      xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cmixo/imports/envo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cmixo/releases/2020-10-14/imports/envo_import.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-14</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cmixo/releases/2020-10-19/imports/envo_import.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-10-19</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1208,6 +1208,41 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_138675"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35107"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37176"/>
+        <rdfs:label>ammonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_138675"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33405"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33535"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37176"/>
+        <rdfs:label>hydrogen sulfide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_138675"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18310"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37176"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64708"/>
+        <rdfs:label>methane</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16526 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16526">
@@ -1215,6 +1250,17 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64708"/>
         <rdfs:label>carbon dioxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_138675"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64708"/>
+        <rdfs:label>carbon monoxide</rdfs:label>
     </owl:Class>
     
 
@@ -1235,6 +1281,25 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25362"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33266"/>
         <rdfs:label>dinitrogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33653"/>
+        <rdfs:label>alkane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18422">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48154"/>
+        <rdfs:label>sulfur dioxide</rdfs:label>
     </owl:Class>
     
 
@@ -1304,6 +1369,15 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33245"/>
+        <rdfs:label>hydrocarbon</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24651 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24651">
@@ -1315,11 +1389,30 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24833">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24651"/>
+        <rdfs:label>oxoacid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24835 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24835">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
         <rdfs:label>inorganic molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24836">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25741"/>
+        <rdfs:label>inorganic oxide</rdfs:label>
     </owl:Class>
     
 
@@ -1343,6 +1436,15 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33744"/>
+        <rdfs:label>iron molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25362 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25362">
@@ -1358,6 +1460,15 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25367">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
         <rdfs:label>molecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33455"/>
+        <rdfs:label>nitrous acid</rdfs:label>
     </owl:Class>
     
 
@@ -1391,6 +1502,15 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52208"/>
+        <rdfs:label>biological pigment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_26710 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26710">
@@ -1420,12 +1540,58 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26835">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+        <rdfs:label>sulfur molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33673"/>
+        <rdfs:label>zinc molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30879">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33822"/>
+        <rdfs:label>alcohol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50906"/>
+        <rdfs:label>application</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33242 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33242">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33692"/>
         <rdfs:label>inorganic hydride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37175"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <rdfs:label>organic fundamental parent</rdfs:label>
     </owl:Class>
     
 
@@ -1505,11 +1671,29 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33292">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
+        <rdfs:label>fuel</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33296">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
         <rdfs:label>alkali metal molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <rdfs:label>alkaline earth molecular entity</rdfs:label>
     </owl:Class>
     
 
@@ -1532,6 +1716,45 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33608"/>
+        <rdfs:label>hydracid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33408">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33302"/>
+        <rdfs:label>pnictogen oxoacid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33415">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33259"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <rdfs:label>elemental carbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33455">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33408"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <rdfs:label>nitrogen oxoacid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33465">
@@ -1543,11 +1766,30 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33497">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <rdfs:label>transition element molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33521 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33521">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
         <rdfs:label>metal atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33535">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26835"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36902"/>
+        <rdfs:label>sulfur hydride</rdfs:label>
     </owl:Class>
     
 
@@ -1579,11 +1821,95 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33582"/>
+        <rdfs:label>lead molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+        <rdfs:label>cyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <rdfs:label>homocyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33597"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33832"/>
+        <rdfs:label>carbocyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33608 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33608">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
         <rdfs:label>hydrogen molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <rdfs:label>polycyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33653">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <rdfs:label>aliphatic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33663">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24632"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33598"/>
+        <rdfs:label>cyclic hydrocarbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33666">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33663"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35294"/>
+        <rdfs:label>polycyclic hydrocarbon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33673">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33676"/>
+        <rdfs:label>zinc group molecular entity</rdfs:label>
     </owl:Class>
     
 
@@ -1602,6 +1928,15 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33675">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
         <rdfs:label>p-block molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33676">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33497"/>
+        <rdfs:label>d-block molecular entity</rdfs:label>
     </owl:Class>
     
 
@@ -1645,6 +1980,53 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33744">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33676"/>
+        <rdfs:label>iron group molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33747">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33676"/>
+        <rdfs:label>nickel group molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33749">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33747"/>
+        <rdfs:label>platinum molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33822 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33822">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24651"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <rdfs:label>organic hydroxy compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33832 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33832">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72695"/>
+        <rdfs:label>organic cyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33839 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33839">
@@ -1664,12 +2046,80 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35881"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <rdfs:label>nitrogen hydride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35106"/>
+        <rdfs:label>azane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24836"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <rdfs:label>nitrogen oxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33292"/>
+        <rdfs:label>fossil fuel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33598"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35295"/>
+        <rdfs:label>carbopolycyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33597"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33635"/>
+        <rdfs:label>homopolycyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35479 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35479">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33296"/>
         <rdfs:label>alkali metal salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35881">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33242"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33302"/>
+        <rdfs:label>pnictogen hydride</rdfs:label>
     </owl:Class>
     
 
@@ -1741,6 +2191,24 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33299"/>
+        <rdfs:label>barium molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33692"/>
+        <rdfs:label>organic hydride</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_37176 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37176">
@@ -1788,6 +2256,44 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46787">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51086"/>
+        <rdfs:label>solvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33455"/>
+        <rdfs:label>nitric acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24836"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26835"/>
+        <rdfs:label>sulfur oxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50816">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24873"/>
+        <rdfs:label>iron oxide</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_50860 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50860">
@@ -1823,6 +2329,15 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+        <rdfs:label>biophysical role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_52211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52211">
@@ -1842,11 +2357,29 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5686">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <rdfs:label>heterocyclic compound</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_59999 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59999">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <rdfs:label>chemical substance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_60004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_60004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <rdfs:label>mixture</rdfs:label>
     </owl:Class>
     
 
@@ -5622,6 +6155,49 @@ https://en.wikipedia.org/wiki/  Ecozones correspond to the floristic kingdoms of
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>boundary layer</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://www.eionet.europa.eu/gemet/concept/976</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000554">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000797"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001547"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24632"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000797"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_2000045"/>
+        <obo:IAO_0000115>A gas that is primarily composed of hydrocarbon molecules.</obo:IAO_0000115>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">hydrocarbon gas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+        <obo:IAO_0000115>A wax is an environmental material which is primarily composed of lipids or other organic compounds that consist of long alkyl chains. Waxes are are malleable near ambient temperatures and melt at approximately 45 degrees Celsius.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">wax</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000575"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A wax is an environmental material which is primarily composed of lipids or other organic compounds that consist of long alkyl chains. Waxes are are malleable near ambient temperatures and melt at approximately 45 degrees Celsius.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Wax</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11417,6 +11993,46 @@ Some definitions include additional discussion of the the physics involved which
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_03000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000088">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00000134"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16183"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000134"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16183"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Permafrost which contains pockets of trapped methane gas.</obo:IAO_0000115>
+        <obo:IAO_0000116>It would probably be better to assert parthood between the permafrost and cavities filled with gas rather than the gases themselves.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-4366-3088"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-3410-4655</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>bulgunyakh</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset>envoPolar</oboInOwl:inSubset>
+        <rdfs:comment>Other hydrocarbon gasses such as carbon dioxide may also be present. These pockets can be sufficently large that the permafrost surface will undulate when pressure is applied.</rdfs:comment>
+        <rdfs:label xml:lang="en">methane-laden permafrost</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000088"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Permafrost which contains pockets of trapped methane gas.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://www.nature.com/news/mysterious-siberian-crater-attributed-to-methane-1.15649</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.sciencealert.com/7-000-huge-gas-bubbles-have-formed-under-siberia-and-could-explode-at-any-moment</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_03000110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_03000110">
@@ -11905,6 +12521,46 @@ Some definitions include additional discussion of the the physics involved which
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_2000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_2000045">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24632"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0015021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33292"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24632"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:created_by>cjm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-03T21:35:24Z</oboInOwl:creation_date>
+        <rdfs:label>hydrocarbon-based environmental material</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_2100000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_2100000">
@@ -11982,6 +12638,102 @@ Some definitions include additional discussion of the the physics involved which
         <obo:IAO_0000115>The concentration of dioxygen when measured in liquid water.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>liquid water dioxygen concentration</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of dioxygen in liquid water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_3100017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_3100017">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16136"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16136"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The concentration of hydrogen sulfide when measured in liquid water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>liquid water hydrogen sulfide concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of hydrogen sulfide in liquid water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_3100020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_3100020">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16183"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16183"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The concentration of methane when measured in liquid water.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>liquid water methane concentration</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of methane in liquid water</rdfs:label>
     </owl:Class>
     
 
@@ -13093,6 +13845,16 @@ Some definitions include additional discussion of the the physics involved which
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002300"/>
         <obo:IAO_0000115>A quality of an object that has a value that is increased compared to normal or average.</obo:IAO_0000115>
         <rdfs:label>increased object quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0015021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0015021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115>The propensity of a material to undergo combustion. Combustion encompasses smouldering and flaming combustion. Combustibility is usually applied to solids.</obo:IAO_0000115>
+        <rdfs:label>combustibility</rdfs:label>
     </owl:Class>
     
 

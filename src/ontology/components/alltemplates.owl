@@ -1,14 +1,46 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/cmixo/components/alltemplates.owl#"
      xml:base="http://purl.obolibrary.org/obo/cmixo/components/alltemplates.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dcterms="dcterms:"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cmixo/components/alltemplates.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cmixo/releases/2020-10-19/components/alltemplates.owl"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- dcterms:creator -->
+
+    <owl:AnnotationProperty rdf:about="dcterms:creator"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#exactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#exactSynonym"/>
     
 
 
@@ -85,6 +117,12 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_16183 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16183"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16240"/>
     
 
 
@@ -268,6 +306,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46916 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46916"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_48107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48107"/>
@@ -337,6 +381,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A drying adhesive made from elastic polymers mixed in a solvent.</obo:IAO_0000115>
+        <oboInOwl:exactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cow gum</oboInOwl:exactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solvents typically used include acetone, hexane, heptane or toluene. </rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rubber cement</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/w/index.php?title=Rubber_cement&amp;oldid=975194720"/>
@@ -355,10 +402,18 @@
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29362"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46916"/>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An elastomeric copolymer of ethylene and vinyl acetate used to produce &quot;rubber-like&quot; materials.</obo:IAO_0000115>
+        <oboInOwl:exactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEVA, poly(ethylene-vinyl acetate), EVA</oboInOwl:exactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethylene-vinyl acetate</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Ethylene-vinyl_acetate"/>
     </owl:Class>
     
 
@@ -381,7 +436,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An adhesive used to fix wallpaper to walls</obo:IAO_0000115>
+        <oboInOwl:exactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wallpaper adhesive</oboInOwl:exactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wallpaper paste</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Wallpaper_paste"/>
     </owl:Class>
     
 
@@ -395,12 +454,20 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_60004"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16134"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16240"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A coloring agent used to temporarily or permanently alter hair color.</obo:IAO_0000115>
+        <oboInOwl:exactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hair color</oboInOwl:exactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hair dye</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Hair_coloring"/>
     </owl:Class>
     
 
@@ -427,7 +494,10 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ingestible form of water based ink used to print on pill medications.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharmaceutical ink</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Pharmaceutical_ink"/>
     </owl:Class>
     
 
@@ -550,6 +620,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gasoline exhaust</rdfs:label>
     </owl:Class>
     
@@ -581,7 +652,10 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A high viscosity, opaque ink used in gel pens.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gel ink</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Gel_pen"/>
     </owl:Class>
     
 
@@ -612,7 +686,10 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A slow drying ink made from refined soybean oil.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soy ink</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Soy_ink"/>
     </owl:Class>
     
 
@@ -639,7 +716,10 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A coloring agent used to deposit color onto a substrate via inkjet printer.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aqueous inkjet printer ink</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Inkjet_printing"/>
     </owl:Class>
     
 
@@ -782,6 +862,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diesel exhaust</rdfs:label>
     </owl:Class>
     

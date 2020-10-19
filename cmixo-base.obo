@@ -1,13 +1,172 @@
 format-version: 1.2
-data-version: cmixo/releases/2020-10-14/cmixo-base.owl
+data-version: cmixo/releases/2020-10-19/cmixo-base.owl
 ontology: cmixo/cmixo-base
 property_value: http://purl.org/dc/elements/1.1/description "Ontology about chemical mixtures" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Chemical Mixture Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
-property_value: owl:versionInfo "2020-10-14" xsd:string
+property_value: owl:versionInfo "2020-10-19" xsd:string
 
 [Term]
 id: CMIXO:00000000
 name: root node
+
+[Term]
+id: CMIXO:0000001
+name: rubber cement
+def: "A drying adhesive made from elastic polymers mixed in a solvent." []
+comment: Solvents typically used include acetone, hexane, heptane or toluene. 
+property_value: dcterms:creator https://orcid.org/0000-0002-7463-6306
+property_value: exactSynonym "cow gum" xsd:string
+property_value: seeAlso index.php?title=Rubber:cement&oldid=975194720
+
+[Term]
+id: CMIXO:0000002
+name: ethylene-vinyl acetate
+def: "An elastomeric copolymer of ethylene and vinyl acetate used to produce \"rubber-like\" materials." []
+intersection_of: CHEBI:60004
+intersection_of: BFO:0000051 CHEBI:29362
+intersection_of: BFO:0000051 CHEBI:46916
+property_value: dcterms:creator https://orcid.org/0000-0002-7463-6306
+property_value: exactSynonym "PEVA, poly(ethylene-vinyl acetate), EVA" xsd:string
+property_value: seeAlso Ethylene-vinyl:acetate
+
+[Term]
+id: CMIXO:0000003
+name: wallpaper paste
+def: "An adhesive used to fix wallpaper to walls" []
+intersection_of: CHEBI:60004
+intersection_of: BFO:0000051 CHEBI:15377
+intersection_of: BFO:0000051 CHEBI:53448
+property_value: dcterms:creator https://orcid.org/0000-0002-7463-6306
+property_value: exactSynonym "wallpaper adhesive" xsd:string
+property_value: seeAlso Wallpaper:paste
+
+[Term]
+id: CMIXO:0000004
+name: hair dye
+def: "A coloring agent used to temporarily or permanently alter hair color." []
+intersection_of: CHEBI:60004
+intersection_of: BFO:0000051 CHEBI:16134
+intersection_of: BFO:0000051 CHEBI:16240
+property_value: dcterms:creator https://orcid.org/0000-0002-7463-6306
+property_value: exactSynonym "hair color" xsd:string
+property_value: seeAlso Hair:coloring
+
+[Term]
+id: CMIXO:0000005
+name: pharmaceutical ink
+def: "An ingestible form of water based ink used to print on pill medications." []
+intersection_of: CHEBI:60004
+intersection_of: BFO:0000051 CHEBI:16997
+intersection_of: BFO:0000051 CHEBI:30879
+intersection_of: BFO:0000051 CHEBI:32234
+property_value: dcterms:creator https://orcid.org/0000-0002-7463-6306
+property_value: seeAlso Pharmaceutical:ink
+
+[Term]
+id: CMIXO:0000006
+name: gasoline exhaust
+intersection_of: CHEBI:60004
+intersection_of: BFO:0000051 CHEBI:15368
+intersection_of: BFO:0000051 CHEBI:15377
+intersection_of: BFO:0000051 CHEBI:16134
+intersection_of: BFO:0000051 CHEBI:16136
+intersection_of: BFO:0000051 CHEBI:16183
+intersection_of: BFO:0000051 CHEBI:16526
+intersection_of: BFO:0000051 CHEBI:16716
+intersection_of: BFO:0000051 CHEBI:16842
+intersection_of: BFO:0000051 CHEBI:17245
+intersection_of: BFO:0000051 CHEBI:17578
+intersection_of: BFO:0000051 CHEBI:17790
+intersection_of: BFO:0000051 CHEBI:18407
+intersection_of: BFO:0000051 CHEBI:18422
+intersection_of: BFO:0000051 CHEBI:24632
+intersection_of: BFO:0000051 CHEBI:24840
+intersection_of: BFO:0000051 CHEBI:25567
+intersection_of: BFO:0000051 CHEBI:30751
+intersection_of: BFO:0000051 CHEBI:33585
+intersection_of: BFO:0000051 CHEBI:33666
+intersection_of: BFO:0000051 CHEBI:33749
+intersection_of: BFO:0000051 CHEBI:35196
+intersection_of: BFO:0000051 CHEBI:35230
+intersection_of: BFO:0000051 CHEBI:39478
+intersection_of: BFO:0000051 CHEBI:48107
+intersection_of: BFO:0000051 CHEBI:51084
+intersection_of: BFO:0000051 CHEBI:51143
+intersection_of: BFO:0000051 CHEBI:5686
+property_value: dcterms:creator https://orcid.org/0000-0002-7463-6306
+
+[Term]
+id: CMIXO:0000007
+name: gel ink
+def: "A high viscosity, opaque ink used in gel pens." []
+intersection_of: CHEBI:60004
+intersection_of: BFO:0000051 CHEBI:15377
+intersection_of: BFO:0000051 CHEBI:155903
+intersection_of: BFO:0000051 CHEBI:50816
+intersection_of: BFO:0000051 SIO:000092
+property_value: dcterms:creator https://orcid.org/0000-0002-7463-6306
+property_value: seeAlso Gel:pen
+
+[Term]
+id: CMIXO:0000008
+name: soy ink
+def: "A slow drying ink made from refined soybean oil." []
+intersection_of: CHEBI:60004
+intersection_of: BFO:0000051 CHEBI:26130
+intersection_of: BFO:0000051 ENVO:01000575
+intersection_of: BFO:0000051 ENVO:03510018
+intersection_of: BFO:0000051 FOODON:03302776
+property_value: dcterms:creator https://orcid.org/0000-0002-7463-6306
+property_value: seeAlso Soy:ink
+
+[Term]
+id: CMIXO:0000009
+name: aqueous inkjet printer ink
+def: "A coloring agent used to deposit color onto a substrate via inkjet printer." []
+intersection_of: CHEBI:60004
+intersection_of: BFO:0000051 CHEBI:13643
+intersection_of: BFO:0000051 CHEBI:15377
+intersection_of: BFO:0000051 ENVO:03510010
+property_value: dcterms:creator https://orcid.org/0000-0002-7463-6306
+property_value: seeAlso Inkjet:printing
+
+[Term]
+id: CMIXO:0000010
+name: diesel exhaust
+intersection_of: CHEBI:60004
+intersection_of: BFO:0000051 CHEBI:15368
+intersection_of: BFO:0000051 CHEBI:15377
+intersection_of: BFO:0000051 CHEBI:16134
+intersection_of: BFO:0000051 CHEBI:16136
+intersection_of: BFO:0000051 CHEBI:16183
+intersection_of: BFO:0000051 CHEBI:16526
+intersection_of: BFO:0000051 CHEBI:16716
+intersection_of: BFO:0000051 CHEBI:16842
+intersection_of: BFO:0000051 CHEBI:17245
+intersection_of: BFO:0000051 CHEBI:17578
+intersection_of: BFO:0000051 CHEBI:17790
+intersection_of: BFO:0000051 CHEBI:18407
+intersection_of: BFO:0000051 CHEBI:18422
+intersection_of: BFO:0000051 CHEBI:24632
+intersection_of: BFO:0000051 CHEBI:24840
+intersection_of: BFO:0000051 CHEBI:24873
+intersection_of: BFO:0000051 CHEBI:25567
+intersection_of: BFO:0000051 CHEBI:26836
+intersection_of: BFO:0000051 CHEBI:27364
+intersection_of: BFO:0000051 CHEBI:30751
+intersection_of: BFO:0000051 CHEBI:33415
+intersection_of: BFO:0000051 CHEBI:33585
+intersection_of: BFO:0000051 CHEBI:33666
+intersection_of: BFO:0000051 CHEBI:33749
+intersection_of: BFO:0000051 CHEBI:35196
+intersection_of: BFO:0000051 CHEBI:35230
+intersection_of: BFO:0000051 CHEBI:37133
+intersection_of: BFO:0000051 CHEBI:39478
+intersection_of: BFO:0000051 CHEBI:48107
+intersection_of: BFO:0000051 CHEBI:51084
+intersection_of: BFO:0000051 CHEBI:51143
+intersection_of: BFO:0000051 CHEBI:5686
+property_value: dcterms:creator https://orcid.org/0000-0002-7463-6306
 

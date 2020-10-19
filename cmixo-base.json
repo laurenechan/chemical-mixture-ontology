@@ -1,9 +1,178 @@
 {
   "graphs" : [ {
     "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/CMIXO_0000008",
+      "meta" : {
+        "definition" : {
+          "val" : "A slow drying ink made from refined soybean oil.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://en.wikipedia.org/wiki/Soy_ink"
+        }, {
+          "pred" : "dcterms:creator",
+          "val" : "https://orcid.org/0000-0002-7463-6306"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "soy ink"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CMIXO_0000007",
+      "meta" : {
+        "definition" : {
+          "val" : "A high viscosity, opaque ink used in gel pens.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://en.wikipedia.org/wiki/Gel_pen"
+        }, {
+          "pred" : "dcterms:creator",
+          "val" : "https://orcid.org/0000-0002-7463-6306"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gel ink"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CMIXO_0000006",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "dcterms:creator",
+          "val" : "https://orcid.org/0000-0002-7463-6306"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "gasoline exhaust"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CMIXO_0000005",
+      "meta" : {
+        "definition" : {
+          "val" : "An ingestible form of water based ink used to print on pill medications.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "dcterms:creator",
+          "val" : "https://orcid.org/0000-0002-7463-6306"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://en.wikipedia.org/wiki/Pharmaceutical_ink"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pharmaceutical ink"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CMIXO_0000004",
+      "meta" : {
+        "definition" : {
+          "val" : "A coloring agent used to temporarily or permanently alter hair color.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://en.wikipedia.org/wiki/Hair_coloring"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#exactSynonym",
+          "val" : "hair color"
+        }, {
+          "pred" : "dcterms:creator",
+          "val" : "https://orcid.org/0000-0002-7463-6306"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hair dye"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CMIXO_0000003",
+      "meta" : {
+        "definition" : {
+          "val" : "An adhesive used to fix wallpaper to walls",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://en.wikipedia.org/wiki/Wallpaper_paste"
+        }, {
+          "pred" : "dcterms:creator",
+          "val" : "https://orcid.org/0000-0002-7463-6306"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#exactSynonym",
+          "val" : "wallpaper adhesive"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "wallpaper paste"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CMIXO_0000002",
+      "meta" : {
+        "definition" : {
+          "val" : "An elastomeric copolymer of ethylene and vinyl acetate used to produce \"rubber-like\" materials.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#exactSynonym",
+          "val" : "PEVA, poly(ethylene-vinyl acetate), EVA"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://en.wikipedia.org/wiki/Ethylene-vinyl_acetate"
+        }, {
+          "pred" : "dcterms:creator",
+          "val" : "https://orcid.org/0000-0002-7463-6306"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ethylene-vinyl acetate"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CMIXO_0000001",
+      "meta" : {
+        "definition" : {
+          "val" : "A drying adhesive made from elastic polymers mixed in a solvent.",
+          "xrefs" : [ ]
+        },
+        "comments" : [ "Solvents typically used include acetone, hexane, heptane or toluene. " ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#exactSynonym",
+          "val" : "cow gum"
+        }, {
+          "pred" : "dcterms:creator",
+          "val" : "https://orcid.org/0000-0002-7463-6306"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://en.wikipedia.org/w/index.php?title=Rubber_cement&oldid=975194720"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "rubber cement"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CMIXO_0000010",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "dcterms:creator",
+          "val" : "https://orcid.org/0000-0002-7463-6306"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "diesel exhaust"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CMIXO_00000000",
       "type" : "CLASS",
       "lbl" : "root node"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CMIXO_0000009",
+      "meta" : {
+        "definition" : {
+          "val" : "A coloring agent used to deposit color onto a substrate via inkjet printer.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "dcterms:creator",
+          "val" : "https://orcid.org/0000-0002-7463-6306"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://en.wikipedia.org/wiki/Inkjet_printing"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "aqueous inkjet printer ink"
     } ],
     "edges" : [ ],
     "id" : "http://purl.obolibrary.org/obo/cmixo/cmixo-base.json",
@@ -24,12 +193,295 @@
         "val" : "https://creativecommons.org/licenses/unspecified"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2020-10-14"
+        "val" : "2020-10-19"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/cmixo/releases/2020-10-14/cmixo-base.json"
+      "version" : "http://purl.obolibrary.org/obo/cmixo/releases/2020-10-19/cmixo-base.json"
     },
     "equivalentNodesSets" : [ ],
-    "logicalDefinitionAxioms" : [ ],
+    "logicalDefinitionAxioms" : [ {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CMIXO_0000009",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CHEBI_60004" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_13643"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_15377"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/ENVO_03510010"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CMIXO_0000004",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CHEBI_60004" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16134"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16240"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CMIXO_0000008",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CHEBI_60004" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_26130"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/ENVO_01000575"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/ENVO_03510018"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/FOODON_03302776"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CMIXO_0000002",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CHEBI_60004" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_29362"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_46916"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CMIXO_0000001",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CHEBI_60004" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_28798"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_30879"
+      }, null ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CMIXO_0000007",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CHEBI_60004" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_15377"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_155903"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_50816"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://semanticscience.org/resource/SIO_000092"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CMIXO_0000005",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CHEBI_60004" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16997"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_30879"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_32234"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CMIXO_0000003",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CHEBI_60004" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_15377"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_53448"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CMIXO_0000010",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CHEBI_60004" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_15368"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_15377"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16134"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16136"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16183"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16526"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16716"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16842"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_17245"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_17578"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_17790"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_18407"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_18422"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_24632"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_24840"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_24873"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_25567"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_26836"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_27364"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_30751"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33415"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33585"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33666"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33749"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_35196"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_35230"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_37133"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_39478"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_48107"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_51084"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_51143"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_5686"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CMIXO_0000006",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CHEBI_60004" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_15368"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_15377"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16134"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16136"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16183"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16526"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16716"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_16842"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_17245"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_17578"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_17790"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_18407"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_18422"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_24632"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_24840"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_25567"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_30751"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33585"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33666"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_33749"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_35196"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_35230"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_39478"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_48107"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_51084"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_51143"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000051",
+        "fillerId" : "http://purl.obolibrary.org/obo/CHEBI_5686"
+      } ]
+    } ],
     "domainRangeAxioms" : [ ],
     "propertyChainAxioms" : [ ]
   } ]
